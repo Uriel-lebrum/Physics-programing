@@ -1,0 +1,8 @@
+import csv
+
+f = open('improve.csv', 'r')
+filas = csv.reader(f)
+for fila in filas:
+    print(fila)
+    
+f.close()
