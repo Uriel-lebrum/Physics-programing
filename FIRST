@@ -1,1 +1,8 @@
+a = str(input("inserte aquí su texto: "))
+contar = 0
+for letra in a: 
+    if not(letra==" "):
+        contar+= 1
+        #print(letra, contar)
+print("En total el número de letras que tiene su texto es: ", contar)
 
